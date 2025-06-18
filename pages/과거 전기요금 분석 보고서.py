@@ -770,7 +770,7 @@ def main():
     col2_select = st.sidebar.selectbox("두 번째 분석 컬럼", numeric_columns, index=6)
 
     # 보고서 생성 옵션
-    st.sidebar.subheader("보고서 생성 옵션")
+    st.sidebar.subheader("보고서 생성 ")
         
     if st.sidebar.button("보고서 생성", key="generate_complete_report"):
         with st.sidebar:
